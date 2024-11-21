@@ -1,3 +1,8 @@
-*{
-    background-color:whitesmoke;
+body{
+    background-color:#538c82;
+}
+.bgcolor{
+    background-color: #405955;
+    border: solid#405955;
+    
 }
