@@ -11,5 +11,10 @@ body{
     right: 46%;
 }
 .bgpic{
-    
+    background-image:url(https://t4.ftcdn.net/jpg/02/44/71/07/360_F_244710705_kJbRGNfdwXq4zfikaaXE77iQCAHsQjt0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
 }
