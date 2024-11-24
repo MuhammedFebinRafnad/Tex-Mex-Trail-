@@ -10,11 +10,35 @@ body{
     position: absolute;
     right: 46%;
 }
-.bgpic{
+.bg{
     background-image:url(https://t4.ftcdn.net/jpg/02/44/71/07/360_F_244710705_kJbRGNfdwXq4zfikaaXE77iQCAHsQjt0.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    height: auto;
+    height: 559px;
+}
+search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+}
+.search-bar input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background-color: #0056b3;
 }
