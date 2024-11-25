@@ -25,9 +25,9 @@ search-bar {
     margin: auto;
 }
 .search-bar input[type="text"] {
-    width: 20%;
-    padding: 10px;
-    border: 1px solid #ccc;
+    width: 15%;
+    padding: 9px;
+    border: 1px solid #ffffff;
     border-radius: 4px 0 0 4px;
     outline: none;
 }
