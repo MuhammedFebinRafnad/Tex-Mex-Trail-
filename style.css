@@ -1,44 +1,67 @@
-body{
-    background-color:#538c82;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.bgcolor{
-    background-color: #405955;
-    border: solid#405955;
-    
+header {
+    background-color: #ff5722;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
 }
-.brandname{
-    position: absolute;
-    right: 46%;
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 0.5rem;
 }
-.bg{
-    background-image:url(https://t4.ftcdn.net/jpg/02/44/71/07/360_F_244710705_kJbRGNfdwXq4zfikaaXE77iQCAHsQjt0.jpg);
-    background-repeat: no-repeat;
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ff5722;
+}
+.hero {
+    background-image: url('https://via.placeholder.com/1920x500');
     background-size: cover;
     background-position: center;
-    max-width: 100%;
-    height: 559px;
-}
-search-bar {
-    display: flex;
-    align-items: center;
-    max-width: 400px;
-    margin: auto;
-}
-.search-bar input[type="text"] {
-    width: 15%;
-    padding: 9px;
-    border: 1px solid #ffffff;
-    border-radius: 4px 0 0 4px;
-    outline: none;
-}
-.search-bar button {
-    padding: 10px 15px;
-    background-color: #007BFF;
     color: white;
-    border: none;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
+    text-align: center;
+    padding: 5rem 1rem;
 }
-.search-bar button:hover {
-    background-color: #0056b3;
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2rem;
+}
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+.card img {
+    width: 100%;
+}
+.card-content {
+    padding: 1rem;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
 }
